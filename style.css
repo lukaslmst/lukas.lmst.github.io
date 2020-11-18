@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+body{
+    background-image: url("img/dark-1853877.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.me{
+width: 40%;
+transform: rotate(-20deg);
+margin-left: 10%;
+transition: transform 5.5s;
+
+}
+.me:hover{
+transform: rotate(360deg);
+
+}
+.wrapper{
+
+display: flex;
+flex-direction: row;
+
+}
+h1{
+color: white;
+font-size: 5rem;
+text-align: center;
+font-family: 'Goldman', cursive;
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.center2{
+width: 20%;
+color: gray;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Goldman', cursive;
+min-height: auto;
+ font-size: 1.3rem; 
+transition: color 2s;
+text-decoration: none;
+
+
+}
+h2{
+  
+   text-decoration: none;  
+}
+h2:hover{
+    color: white;
+   
+}
+
+.backpics{
+
+    
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+body{
+background-image: url(img/sky1.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper{
+display: flex;
+
+
+}
+#start{
+background-color:black;
+color: white;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Goldman', cursive;
+padding: 2%;
+border-radius: 50px;
+transition: background-color 2s;
+transition: color 2s;
+margin-top: 30%;
+z-index: 1;
+}
+#start:hover{
+
+background-color: white;
+color: black;
+}
+.font{
+    
+   
+    margin-right: 10%;
+  
+    
+}
+h2{
+font-size: 1.6rem;
+  text-decoration: none;
+  font-family: 'Goldman', cursive;
+   color: white;
+}
+#erg{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+display: none;
+}
